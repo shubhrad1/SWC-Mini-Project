@@ -1,0 +1,264 @@
+.topnav{
+    width: 100%;
+    height: 70px;
+    position:fixed;
+    top:0;
+    background-color: #FFFFFF;
+    border: 1px solid #D4DADF;
+    border-top: none;
+    z-index: 4000;
+    
+}
+
+
+.topnav img{
+    float:left;
+    padding-left: 49.67px;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 2.31px;
+    padding-top: 14px;
+    cursor: pointer;
+    
+
+}
+
+.topnav .title_main{
+    position:relative;
+    float:left;
+    list-style: none;
+    left:10px;
+    top:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 70px;
+    color:#02A689;
+}
+
+.topnav .title_main:hover{
+    cursor:pointer ;
+}
+ 
+.topnav .searchbar input
+{   
+    position: relative;
+    top:20px;
+    float:right;
+    height:30px;
+    border:none;
+    font-size: 16px;
+    left:10px;
+    
+}
+.topnav .searchbar img
+{   
+    position:relative;
+    float:right;
+    top:12px;
+    height:18px;
+    left:-270px;
+    width:18px;
+    border:none;
+    font-size: 16px;
+    
+}
+
+.topnav .searchbar img:hover
+{   
+    cursor: pointer;
+}
+
+body{
+    background-color: #E5E5E5;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.vl1 {
+    position: absolute;
+  border-left: 2px solid #d4dadf;
+  height: 45px;
+  top:12px;
+  left:320px;
+}
+.vl2 {
+    position: absolute;
+  border-left: 2px solid #d4dadf;
+  height: 45px;
+  top:12px;
+  right:307px;
+}
+
+
+.side_nav{
+
+position: fixed;
+left:0;
+bottom:0;
+height:calc(100vh - 70px);
+width: 320px;
+background: #F5F7F9;
+border: 1px solid #D4DADF;
+z-index: 1000;
+
+}
+
+.side_nav ul{
+
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+.side_nav ul li{
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 30px;
+
+}
+
+.side_nav ul li a{
+        position: static;
+        padding-top:10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        display: block;
+        height: 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #1F2A33;
+
+ 
+}
+.side_nav ul li a:hover{
+    background-color: #FFFFFF;
+    border: 0.73px solid #D4DADF;
+    border-right: none;
+
+}
+
+
+
+.button{
+    margin-left: 25%;
+    margin-top: 80%;
+    width:152px;
+    height:43px; 
+    background-color: #02A689;
+    position: relative;
+
+    
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+    color:#FFFFFF;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 550;
+    
+}
+
+.button:hover{
+ 
+    cursor: pointer;
+    background-color: #00be9c;
+
+}
+
+.content{
+    position:relative;
+    background-color: #FFFFFF;
+    height:300px;
+    width:250px;
+    left:350px;
+    top:92px;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    align-items: center;
+    margin-right: 50px;
+    overflow:hidden;
+    margin-bottom: 30px;
+    
+    
+}
+
+.content img {
+    position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    top:16px;
+}
+
+.content .info{
+    position: relative;
+    display: block;
+    top:20px;
+    line-height: 30px;
+}
+.content .info p1{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #02A689;
+    font-size: 14px;
+}
+.content .info p2{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #333333;
+    font-size: 14px;
+}
+.content .info p3{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #514EFC;
+    font-size: 14px;
+}
+.content .info p4{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #3A3E41;
+    font-size: 12px;
+}
+.content .info .contact_img{
+    position:relative;
+    display:flex;
+    
+}
+.content .info .contact_img  .chat {
+
+    left: 340%;
+    height:27px;
+    width:27px;
+
+}
+.content .info .contact_img .call {
+    
+    left: 355%;
+    
+    height:27px;
+    width:30px;
+}
+.content .info .contact_img .chat:hover{
+
+    cursor: pointer;
+}
+.content .info .contact_img .call:hover{
+
+    cursor: pointer;
+}
